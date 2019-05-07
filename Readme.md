@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Минаев](https://up.htmlacademy.ru/htmlcss/25/user/621519).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Горбач](https://htmlacademy.ru/profile/lemberg).
 
 ---
 
