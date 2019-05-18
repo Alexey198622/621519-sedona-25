@@ -104,32 +104,43 @@
       <p class="map__title">Заинтересовались?</p>
       <p class="map__desc">Укажите предпологаемые даты поездки,
         и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <form action="" class="map__form" method="GET">
+      <form action="https://echo.htmlacademy.ru" class="map__form" method="post">
+        <h2 class="scan">Поиск гостиницы в Cедоне</h2>
         <p class="map__item">
           <label for="arrival__date">
             Дата заезда:
-            <input id="arrival__date" type="text" name="date" value="" placeholder="24 апреля 2017">
           </label>
+          <input id="arrival__date" type="text" name="arrival" placeholder="24 апреля 2017">
+          <button type="button" name="number">
+            <img src="img/calendar.svg" alt="Календарь">
+          </button>
         </p>
         <p class="map__item">
           <label for="departure__date">
             Дата выезда:
-            <input id="departure__date" type="text" name="date" value="" placeholder="4 июля 2017">
           </label>
+          <input id="departure__date" type="text" name="departure" placeholder="4 июля 2017">
+          <button type="button" name="number">
+            <img src="img/calendar.svg" alt="Календарь">
+          </button>
         </p>
         <p class="map__item">
           <label for="grown">
             Взрослые:
-            <input id="grown" type="text" name="number" placeholder="2">
           </label>
+          <button type="button" name="minus">-</button>
+          <input id="grown" type="text" name="number" placeholder="2">
+          <button type="button" name="plus">+</button>
         </p>
         <p class="map__item">
           <label for="children">
             Дети:
-            <input id="children" type="text" name="number" placeholder="0">
           </label>
+          <button type="button" name="minus">-</button>
+          <input id="children" type="text" name="number" placeholder="0">
+          <button type="button" name="plus">+</button>
         </p>
-        <button class="button" type="submit">Найт</button>
+        <button class="button" type="submit">Найти</button>
       </form>
     </section>
   </main>
