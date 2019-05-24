@@ -14,6 +14,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
+  text-transform:  uppercase;
   color: #333333;
   background-color: #f2f2f2;
 }
@@ -43,6 +44,10 @@ a {
  color: rgba(0, 0, 0, 0.3);
 }
 
+.active {
+  color: #766357;
+}
+
 .feature__title {
   font-size: 21px;
   font-weight: bold;
@@ -66,6 +71,7 @@ a {
   font-size: 21px;
   font-weight: bold;
 }
+
 
 .features h3 {
   font-size: 21px;
@@ -107,6 +113,7 @@ a {
 }
 
 .detail:active {
+  color: rgba(255, 255, 255, 0.3);
   background-color: #5496bd;
 }
 
@@ -122,6 +129,7 @@ a {
 }
 
 .reservation:active {
+  color: rgba(255, 255, 255, 0.3);
   background-color: #503e33;
 }
 
@@ -172,6 +180,7 @@ a {
 }
 
 .scan:active {
+  color: rgba(255, 255, 255, 0.3);
   background-color: #503e33;
 }
 
@@ -189,6 +198,7 @@ a {
 }
 
 .button:active {
+  color: rgba(255, 255, 255, 0.3);
   background-color: #5496bd;
 }
 
@@ -196,4 +206,47 @@ a {
   object-fit: contain;
   background-color: #81b3d2;
   box-sizing: border-box;
+}
+
+.by__price {
+  color: #81b3d2;
+}
+
+.map__title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000000;
+  text-align: center;
+}
+
+.map__desc {
+  line-height: 1.71;
+  text-align: center;
+}
+
+.map__item {
+  font-weight: bold;
+  line-height: 1.86;
+  color: #000000;
+}
+
+.main-footer-tag {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  color: #000000;
+}
+
+.main-footer-tag b {
+  line-height: 1.86;
+  color: #000000;
+}
+
+.hotels__desc {
+  box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+}
+
+.hotels__rate-text {
+  color: #666666;
 }
