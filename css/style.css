@@ -248,8 +248,9 @@ a {
   color: #666666;
 }
 
-b {
+.footer-copyright b {
   line-height: 1.86;
+  font-weight: normal;
   text-align: center;
   color: #000000;
 }
