@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container">
-    <header class="main-header">
+    <header class="main-header outline">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
           <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип тур-агенства Седонна">
@@ -31,7 +31,7 @@
       </nav>
     </header>
     <section class="services">
-      <form class="services-infrastructure">
+      <form class="services-infrastructure outline">
         <h2>Инфраструктура:</h2>
         <input type="checkbox" name="subscribe" id="subscribe-field" checked>
         <label for="subscribe-field">Бассейн</label>
@@ -49,21 +49,23 @@
       </form>
     </section>
     <main>
-      <h2>Найдено: 3</h2>
-      <p>Сортировать:</p>
-      <ul class="catalog-navigation">
-        <li class="catalog-navigation__item" class="by__price"><a>По цене</a></li>
-        <li>
-          <a href="type_of.html">По типу</a>
-        </li>
-        <li>
-          <a href="rated.html">По рейтингу</a>
-        </li>
-      </ul>
+      <section class="compare outline">
+        <h2>Найдено: 3</h2>
+        <p>Сортировать:</p>
+        <ul class="catalog-navigation">
+          <li class="catalog-navigation__item" class="by__price"><a>По цене</a></li>
+          <li>
+            <a href="type_of.html">По типу</a>
+          </li>
+          <li>
+            <a href="rated.html">По рейтингу</a>
+          </li>
+        </ul>
+      </section>
       <section class="hotels">
-        <h2>Каталог</h2>
-        <ul class="hotels__list">
-          <li class="hotels__item">
+        <h2 class="visually-hidden">Каталог</h2>
+        <ul class="hotels__list outline">
+          <li class="hotels__item outline">
             <div class="hotels__image">
               <img src="img/hotel-picture1.jpg" width="135" height="90" alt="Amara Resort & Spa">
             </div>
@@ -84,7 +86,7 @@
               <p class="hotels__rate-text">Рейтинг: 8,5</p>
             </div>
           </li>
-          <li class="hotels__item">
+          <li class="hotels__item outline">
             <div class="hotels__image">
               <img src="img/hotel-picture2.png" width="135" height="90" alt="Desert Quail inn">
             </div>
@@ -105,7 +107,7 @@
               <p class="hotels__rate-text">Рейтинг: 8,9</p>
             </div>
           </li>
-          <li class="hotels__item">
+          <li class="hotels__item outline">
             <div class="hotels__image">
               <img src="img/hotel-picture3.png" alt="Villas At Poco Diabolo">
             </div>
