@@ -167,7 +167,6 @@ a {
 }
 
 .detail {
-  box-sizing: border-box;
   font-weight: bold;
   line-height: 1.5;
   color: #ffffff;
@@ -187,7 +186,6 @@ a {
   font-weight: bold;
   color: #ffffff;
   background-color: #766357;
-  box-sizing: border-box;
 }
 
 .reservation:hover {
@@ -236,10 +234,8 @@ a {
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
-  text-align: center;
   color: #ffffff;
   background-color: #766357;
-  box-sizing: border-box;
 }
 
 .scan:hover {
@@ -254,10 +250,8 @@ a {
 .button {
   font-size: 21px;
   font-weight: bold;
-  text-align: center;
   color: #ffffff;
   background-color: #81b3d2;
-  box-sizing: border-box;
 }
 
 .button:hover {
@@ -324,7 +318,6 @@ a {
 .footer-copyright b {
   line-height: 1.86;
   font-weight: normal;
-  text-align: center;
   color: #000000;
 }
 /* Стили для страницы hotel.html */
