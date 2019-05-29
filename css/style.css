@@ -125,10 +125,9 @@ a {
 
 .features-list {
   display: flex;
-  flex-wrap: inherit;
+  flex-wrap: wrap;
   list-style: none;
-  margin: 0 auto;
-  min-height: 330px;
+  margin: 0;
   padding: 0;
 }
 
@@ -150,10 +149,9 @@ a {
 
 .main-comfort-item {
   display: flex;
-  flex-wrap: inherit;
+  flex-wrap: wrap;
   list-style: none;
-  margin: 0 auto;
-  min-height: 256px;
+  margin: 0;
   padding: 0;
 }
 
@@ -281,9 +279,6 @@ a {
   color: #81b3d2;
 }
 
-.map {
-}
-
 .map__title {
   font-size: 30px;
   font-weight: bold;
@@ -356,14 +351,6 @@ a {
 .hotels__item {
   display: flex;
   flex-wrap: wrap;
-}
-
-.hotels__image {
-  margin-left: 72px;
-}
-
-.hotels__info {
-  margin-left: 30px;
 }
 
 .hotels__rate {
