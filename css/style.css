@@ -57,6 +57,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  font-weight: bold;
 }
 
 .site-navigation a[href]:hover {
@@ -98,7 +99,6 @@ a {
 
 .feature__text {
   line-height: 1.86;
-  text-align: center;
 }
 .main-city {
   display: flex;
@@ -270,9 +270,7 @@ a {
 }
 
 .social-button {
-  object-fit: contain;
   background-color: #81b3d2;
-  box-sizing: border-box;
 }
 
 .by__price {
