@@ -58,6 +58,8 @@ a {
   flex-wrap: wrap;
   list-style: none;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .site-navigation a[href]:hover {
@@ -86,7 +88,6 @@ a {
 .feature {
   display: flex;
   flex-wrap: wrap;
-  min-height: 216px;
 }
 
 .feature__title {
@@ -315,6 +316,10 @@ a {
   padding: 0;
 }
 
+.footer-social li {
+  list-style: none;
+}
+
 .main-footer-tag {
   font-size: 21px;
   font-weight: bold;
@@ -396,8 +401,13 @@ a {
   margin: 0;
 }
 
-.map__item button, input {
+.map__item button {
   margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.map__item input {
   padding: 0;
   border: 0;
 }
