@@ -15,16 +15,16 @@
           <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип тур-агенства Седонна">
         </a>
         <ul class="site-navigation">
-          <li>
+          <li class="outline">
             <a href="info.html">Информация</a>
           </li>
-          <li>
+          <li class="outline">
             <a href="PhotoandVideo.html">Фото и Видео</a>
           </li>
-          <li>
+          <li class="outline">
             <a href="Statemap.html">Карта штата</a>
           </li>
-          <li>
+          <li class="outline">
             <a href="hotel.html">Гостиницы</a>
           </li>
         </ul>
@@ -43,7 +43,7 @@
         <div class="main-photo">
           <img src="img/feature-picture.jpg" width="800" height="256" alt="Отель">
         </div>
-        <div class="main-sign">
+        <div class="main-sign outline">
           <h3>Настоящий городок</h3>
           <p>— №1 —</p>
           <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
@@ -51,17 +51,17 @@
       </section>
       <section class="features">
         <ul class="features-list outline">
-          <li class="feature-home">
+          <li class="feature-home outline">
             <h3>Жильё</h3>
             <p>Рекомендуем пожить в настоящем мотеле,
               всё как в кино!</p>
           </li>
-          <li class="feature-food">
+          <li class="feature-food outline">
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер,
               вы не разочаруетесь!</p>
           </li>
-          <li class="feature-souvenir">
+          <li class="feature-souvenir outline">
             <h3>Сувениры</h3>
             <p>Нетолько китайского, но и местного
               производства!</p>
@@ -82,20 +82,23 @@
       <section class="main-comfort">
         <h2 class="visually-hidden">Наши преимущества</h2>
         <ul class="main-comfort-item outline">
-          <li>
-            <h3>Небольшая площадь</h3>
+          <li class="outline">
+            <h3>Небольшая<br>
+              площадь</h3>
             <p>— №3 —</p>
             <p>все достопримечательности
               находятся очень близко</p>
           </li>
-          <li>
-            <h3>Красивая дорога</h3>
+          <li class="outline">
+            <h3>Красивая<br>
+              дорога</h3>
             <p>— №4 —</p>
             <p>Ехать в седонну из лас-вегаса совсем
               не скучно</p>
           </li>
-          <li>
-            <h3>Мало туристов</h3>
+          <li class="outline">
+            <h3>Мало<br>
+              туристов</h3>
             <p>— №5 —</p>
             <p>Большинство едет в гранд каньон
               и толпится там</p>
@@ -108,7 +111,7 @@
         <p class="map__desc">Укажите предпологаемые даты поездки,
           и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a href="hotel.html" class="scan">Поиск гостиницы в Седоне</a>
-        <form action="https://echo.htmlacademy.ru" class="map__form" method="post">
+        <form action="https://echo.htmlacademy.ru" class="map__form outline" method="post">
           <p class="map__item">
             <label for="arrival__date">
               Дата заезда:
@@ -127,20 +130,20 @@
               <img src="img/calendar.svg" alt="Календарь">
             </button>
           </p>
-          <p class="map__item">
+          <p class="map__item outline">
             <label for="grown">
               Взрослые:
             </label>
             <button type="button" title="Минус">-</button>
-            <input id="grown" type="text" name="grown" placeholder="2">
+            <input id="grown" type="text" name="grown" placeholder="2" class="number">
             <button type="button" title="Плюс">+</button>
-          </p>
-          <p class="map__item">
+          <!-- </p>
+          <p class="map__item"> -->
             <label for="children">
               Дети:
             </label>
             <button type="button" title="Минус">-</button>
-            <input id="children" type="text" name="children" placeholder="0">
+            <input id="children" type="text" name="children" placeholder="0" class="number">
             <button type="button" title="Плюс">+</button>
           </p>
           <button class="button" type="submit">Найти</button>
@@ -166,7 +169,7 @@
       <p class="footer-copyright">
         <b>Website by</b>
         <a href="https://htmlacademy.ru/intensive/htmlcss">
-          <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">HTML Academy
+          <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
         </a>
       </p>
     </footer>

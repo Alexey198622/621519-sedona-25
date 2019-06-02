@@ -20,6 +20,7 @@ body {
 
 img {
   max-width: 100%;
+  margin: 30px 30px 30px 0;
 }
 
 a {
@@ -53,13 +54,49 @@ a {
   display: flex;
 }
 
+.main-navigation {
+  position: relative;
+  width: 100%;
+}
+
+.main-header-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .site-navigation {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   font-weight: bold;
   margin: 0;
-  padding: 0;
+  padding: 0 72px;
+}
+
+.site-navigation li {
+  width: 203px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  word-break: break-all;
+}
+
+.site-navigation li:nth-child(2n) {
+  margin-right: 244px;
+}
+
+.site-navigation li:nth-child(3n) {
+  text-align: right;
+  padding-right: 0;
+}
+
+.site-navigation li:nth-child(4n) {
+  margin-right: 0;
+  text-align: right;
+  padding-right: 0;
+  padding-left: 15px;
 }
 
 .site-navigation a[href]:hover {
@@ -86,17 +123,19 @@ a {
 }
 
 .feature {
-  display: flex;
-  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 61px;
+  padding-bottom: 56px;
+  padding-left: 350px;
+  padding-right: 350px;
 }
 
 .feature__title {
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
-  text-align: center;
   color: #000000;
-  margin: 0;
+  margin: 0 0 38px;
 }
 
 .feature__text {
@@ -111,14 +150,20 @@ a {
   order: 2;
 }
 
+.main-photo {
+  width: 800px;
+}
+
 .main-photo img {
   display: block;
 }
 
 .main-sign {
+  width: 400px;
   text-align: center;
   color: #ffffff;
   background-color: #81b3d2;
+  padding: 46px 60px 64px;
 }
 
 .main-sign h3 {
@@ -127,7 +172,7 @@ a {
   margin: 0;
 }
 
-.main-sign p{
+.main-sign p {
   margin: 0;
 }
 
@@ -139,13 +184,18 @@ a {
   padding: 0;
 }
 
+.features-list li {
+  width: 400px;
+  padding: 60px 74px 85px;
+}
+
 .features h3 {
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
   text-align: center;
   color: #000000;
-  margin: 0;
+  margin: 0 0 31px;
 }
 
 .features p {
@@ -163,6 +213,11 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.main-comfort-item li {
+  width: 400px;
+  padding: 50px 60px 64px;
 }
 
 .main-comfort h3 {
@@ -183,6 +238,7 @@ a {
   line-height: 1.5;
   color: #ffffff;
   background-color: #81b3d2;
+  padding: 8px 17px;
 }
 
 .detail:hover {
@@ -198,6 +254,7 @@ a {
   font-weight: bold;
   color: #ffffff;
   background-color: #766357;
+  padding: 8px 16px;
 }
 
 .reservation:hover {
@@ -217,6 +274,7 @@ a {
 
 .catalog-navigation__item {
   color: #81b3d2;
+  margin: 0 33px 0 0;
 }
 
 .catalog-navigation a[href]:hover {
@@ -225,6 +283,10 @@ a {
 
 .catalog-navigation a[href]:active {
   color: #000000;
+}
+
+.hotels__info {
+  margin: 30px 538px 17px 0;
 }
 
 .hotels__title {
@@ -242,12 +304,19 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
+.hotels__buttons {
+  margin: 18px 0;
+}
+
 .scan {
-  font-size: 21px;
+  display: block;
+  text-align: center;
   font-weight: bold;
   line-height: 1.24;
   color: #ffffff;
   background-color: #766357;
+  margin: 52px 316px 0;
+  padding: 34px 140px;
 }
 
 .scan:hover {
@@ -259,11 +328,18 @@ a {
   background-color: #503e33;
 }
 
+.map__form {
+  margin: 0 316px 78px;
+  padding: 55px;
+}
+
 .button {
   font-size: 21px;
   font-weight: bold;
   color: #ffffff;
   background-color: #81b3d2;
+  padding: 20px 196px;
+  margin: 67px 0 0;
 }
 
 .button:hover {
@@ -302,7 +378,11 @@ a {
   font-weight: bold;
   line-height: 1.86;
   color: #000000;
-  margin: 0;
+  margin: 55px 0 0;
+}
+
+.map__item label {
+  margin: 0 29px 0 0;
 }
 
 .main-footer {
@@ -356,19 +436,20 @@ a {
 .compare {
   display: flex;
   flex-wrap: wrap;
+  padding: 32px 73px;
 }
 
 .compare h2 {
-  margin: 0;
+  margin: 0 49px 0 0;
 }
 
 .compare p {
-  margin: 0
+  margin: 0 40px 0 0;
 }
 
 .hotels__list {
   list-style: none;
-  padding: 0;
+  padding: 0 72px;
   margin-top: 0;
 }
 
@@ -378,6 +459,10 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.catalog-navigation li {
+  margin: 0 33px 0 0;
 }
 
 .hotels__item {
@@ -403,11 +488,15 @@ a {
 
 .map__item button {
   margin: 0;
-  padding: 0;
+  padding: 13px;
   border: 0;
 }
 
 .map__item input {
-  padding: 0;
+  padding: 13px;
   border: 0;
+}
+
+.number {
+  width: 38px;
 }
