@@ -313,12 +313,14 @@ a {
 
 .scan {
   display: block;
+  width: 561px;
   text-align: center;
   font-weight: bold;
   line-height: 1.24;
   color: #ffffff;
   background-color: #766357;
-  margin: 52px 316px 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 34px 140px;
 }
 
@@ -332,8 +334,14 @@ a {
 }
 
 .map__form {
-  margin: 0 316px 78px;
+  width: 561px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 55px;
+}
+
+.map__item__option {
+  width: 276px;
 }
 
 .button {
@@ -362,19 +370,23 @@ a {
   color: #81b3d2;
 }
 
+.map {
+  padding: 57px 0 0;
+}
+
 .map__title {
   font-size: 30px;
   font-weight: bold;
   line-height: 1.2;
   color: #000000;
   text-align: center;
-  margin: 0;
+  margin: 0 0 30px;
 }
 
 .map__desc {
   line-height: 1.71;
   text-align: center;
-  margin: 0;
+  margin: 0 383px 52px;
 }
 
 .map__item {
@@ -386,6 +398,10 @@ a {
 
 .map__item label {
   margin: 0 29px 0 0;
+}
+
+.map__item__button {
+  margin-left: auto;
 }
 
 .main-footer {
