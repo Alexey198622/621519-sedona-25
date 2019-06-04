@@ -210,6 +210,18 @@ a {
   background-color: #eeeeee;
 }
 
+.main-comfort-item__title {
+  margin-bottom: 10px;
+}
+
+.main-comfort-item__number {
+  margin: 10px;
+}
+
+.main-comfort-item__text {
+  margin: 0;
+}
+
 .main-comfort-item {
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +245,6 @@ a {
 
 .main-comfort p {
   text-align: center;
-  margin: 0;
 }
 
 .detail {
@@ -341,7 +352,7 @@ a {
 }
 
 .map__item__option {
-  width: 276px;
+  width: 275px;
 }
 
 .button {
@@ -390,6 +401,7 @@ a {
 }
 
 .map__item {
+  display: inline-flex;
   font-weight: bold;
   line-height: 1.86;
   color: #000000;
@@ -413,10 +425,15 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: 41px 121px;
 }
 
 .footer-social li {
+  padding: 10px 12px 6px;
+  margin: 0 6px 0 0;
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
   list-style: none;
 }
 
@@ -427,6 +444,7 @@ a {
   line-height: 1.24;
   color: #000000;
   margin: 0;
+  padding: 52px 132px;
 }
 
 .main-footer-tag b {
@@ -442,11 +460,13 @@ a {
   line-height: 1.86;
   font-weight: normal;
   color: #000000;
+  margin: auto
 }
 
 .footer-copyright {
   width: 400px;
   margin: 0;
+  padding: 40px 101px;
 }
 
 /* Стили для страницы hotel.html */
@@ -518,6 +538,10 @@ a {
 .map__item input {
   padding: 13px;
   border: 0;
+}
+
+.child {
+  padding: 0 0 0 70px;
 }
 
 .number {
