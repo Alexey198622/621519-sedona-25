@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>Отели</title>
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <div class="container">
     <header class="main-header outline">
@@ -49,23 +51,33 @@
       </form>
     </section>
     <main>
-      <section class="compare outline">
+      <section class="compare">
         <h2>Найдено: 3</h2>
         <p>Сортировать:</p>
         <ul class="catalog-navigation">
-          <li class="catalog-navigation__item" class="by__price"><a>По цене</a></li>
+          <li class="catalog-navigation__item by__price"><a>По цене</a></li>
           <li>
             <a href="type_of.html">По типу</a>
           </li>
           <li>
             <a href="rated.html">По рейтингу</a>
           </li>
+          <li class="pointer__up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+              <path fill="#231F20" d="M5.5 0L0 10h11z" />
+            </svg>
+          </li>
+          <li class="pointer__down">
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+              <path fill="#81b3d2" d="M5.5 10L0 0h11" />
+            </svg>
+          </li>
         </ul>
       </section>
       <section class="hotels">
         <h2 class="visually-hidden">Каталог</h2>
         <ul class="hotels__list outline">
-          <li class="hotels__item"  outline>
+          <li class="hotels__item">
             <div class="hotels__image">
               <img src="img/hotel-picture1.jpg" width="135" height="90" alt="Amara Resort & Spa">
             </div>
@@ -79,13 +91,17 @@
                 <a href="reservation.html" class="reservation">Забронировать</a>
               </div>
             </div>
-            <div class="hotels__rate">
-              <span class="hotels__rate-star">
+            <div class="hotels__rate outline">
+              <span class="hotels__rate-star star-4">
+                <!-- <img src="./img/star.svg" alt="Звезда">
+                <img src="./img/star.svg" alt="Звезда">
+                <img src="./img/star.svg" alt="Звезда">
+                <img src="./img/star.svg" alt="Звезда"> -->
               </span>
               <p class="hotels__rate-text">Рейтинг: 8,5</p>
             </div>
           </li>
-          <li class="hotels__item outline">
+          <li class="hotels__item">
             <div class="hotels__image">
               <img src="img/hotel-picture2.png" width="135" height="90" alt="Desert Quail inn">
             </div>
@@ -99,13 +115,16 @@
                 <a href="reservation.html" class="reservation">Забронировать</a>
               </div>
             </div>
-            <div class="hotels__rate">
-              <span class="hotels__rate-star">
+            <div class="hotels__rate outline">
+              <span class="hotels__rate-star star-3">
+                <!-- <img src="./img/star.svg" alt="Звезда">
+                <img src="./img/star.svg" alt="Звезда">
+                <img src="./img/star.svg" alt="Звезда"> -->
               </span>
               <p class="hotels__rate-text">Рейтинг: 8,9</p>
             </div>
           </li>
-          <li class="hotels__item outline">
+          <li class="hotels__item">
             <div class="hotels__image">
               <img src="img/hotel-picture3.png" alt="Villas At Poco Diabolo">
             </div>
@@ -119,8 +138,10 @@
                 <a href="reservation.html" class="reservation">Забронировать</a>
               </div>
             </div>
-            <div class="hotels__rate">
-              <span class="hotels__rate-star">
+            <div class="hotels__rate outline">
+              <span class="hotels__rate-star star-2">
+                <!-- <img src="./img/star.svg" alt="Звезда">
+                <img src="./img/star.svg" alt="Звезда"> -->
               </span>
               <p class="hotels__rate-text">Рейтинг: 9,2</p>
             </div>
@@ -133,15 +154,15 @@
       <ul class="footer-social">
         <li>
           <a href="#" class="social-button">
-            <img src="img/twitter.svg" width="46" height="48" alt="Твиттер">Твиттер</a>
+            <img src="img/twitter.svg" width="17" height="22" alt="Твиттер"></a>
         </li>
         <li>
           <a href="#" class="social-button">
-            <img src="img/fb-icon.svg" width="46" height="48" alt="Фейсбук">Фейсбук</a>
+            <img src="img/fb-icon.svg" width="17" height="22" alt="Фейсбук"></a>
         </li>
         <li>
           <a href="#" class="social-button">
-            <img src="img/youtube.svg" width="46" height="48" alt="Ютуб">Ютуб</a>
+            <img src="img/youtube.svg" width="17" height="22" alt="Ютуб"></a>
         </li>
       </ul>
       <p class="footer-copyright">
@@ -153,4 +174,5 @@
     </footer>
   </div>
 </body>
+
 </html>
