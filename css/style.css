@@ -213,7 +213,7 @@ a {
 }
 
 .main-comfort-item__number {
-  margin: 10px;
+  margin: 0 0 10px;
 }
 
 .main-comfort-item__text {
@@ -238,7 +238,7 @@ a {
   font-weight: bold;
   text-align: center;
   color: #000000;
-  margin: 0;
+  margin: 0 0 10px;
 }
 
 .main-comfort p {
@@ -395,9 +395,10 @@ a {
 }
 
 .map__desc {
+  width: 396px;
   line-height: 1.71;
   text-align: center;
-  margin: 0 383px 52px;
+  margin: 0 auto 52px;
 }
 
 .map__item {
@@ -542,6 +543,20 @@ a {
   margin: 0 33px 0 0;
 }
 
+.option {
+  margin-left: auto;
+}
+
+.cursor {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.pointer__up {
+  margin: 0 12px 0 0;
+}
+
 .hotels__item {
   display: flex;
   flex-wrap: wrap;
@@ -561,6 +576,13 @@ a {
   margin: 0 0 52px;
   background-image: url("../img/star.svg");
   background-size: 22px 17px;
+}
+
+.hide-text {
+  font-size: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .star-1 {
@@ -584,8 +606,11 @@ a {
 }
 
 .hotels__rate-text {
+  width: auto;
   color: #666666;
+  padding: 5px 12px;
   margin: 0;
+  background-color: #f2f2f2;
 }
 
 .hotels__type {
