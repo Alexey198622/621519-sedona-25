@@ -6,68 +6,68 @@
   <title>Главная</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
   <div class="container">
-    <header class="main-header outline">
+    <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
           <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип тур-агенства Седонна">
         </a>
         <ul class="site-navigation">
-          <li class="outline">
+          <li class="">
             <a href="info.html">Информация</a>
           </li>
-          <li class="outline">
+          <li class="">
             <a href="PhotoandVideo.html">Фото и Видео</a>
           </li>
-          <li class="outline">
+          <li class="">
             <a href="Statemap.html">Карта штата</a>
           </li>
-          <li class="outline">
+          <li class="">
             <a href="hotel.html">Гостиницы</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="legend outline">
+      <section class="legend">
         <img src="img/intro-welcome.svg" width="459" height="353" alt="Добро пожаловать">
       </section>
-      <section class="feature outline">
-        <p class="feature__title">Седонна - небольшой городок в Аризоне, заслуживающий большего!</p>
+      <section class="feature">
+        <p class="feature__title">Седона &mdash; небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="feature__text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
       </section>
-      <section class="main-city main-city-right outline">
+      <section class="main-city main-city-right">
         <div class="main-photo">
           <img src="img/feature-picture.jpg" width="800" height="256" alt="Отель">
         </div>
-        <div class="main-sign outline">
+        <div class="main-sign">
           <h3>Настоящий городок</h3>
           <p class="main-sign__number">— №1 —</p>
           <p class="main-sign__text">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
         </div>
       </section>
       <section class="features">
-        <ul class="features-list outline">
-          <li class="feature-home outline">
+        <ul class="features-list">
+          <li class="feature-home">
             <h3>Жильё</h3>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
-          <li class="feature-food outline">
+          <li class="feature-food">
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="feature-souvenir outline">
+          <li class="feature-souvenir">
             <h3>Сувениры</h3>
             <p>Нетолько китайского, но и местного производства!
             </p>
           </li>
         </ul>
       </section>
-      <section class="main-city outline">
+      <section class="main-city">
         <div class="main-photo">
           <img src="img/layer-5.jpg" width="800" height="256" alt="Каньон">
         </div>
@@ -79,20 +79,20 @@
       </section>
       <section class="main-comfort">
         <h2 class="visually-hidden">Наши преимущества</h2>
-        <ul class="main-comfort-item outline">
-          <li class="outline">
+        <ul class="main-comfort-item">
+          <li class="">
             <h3 class="main-comfort-item__title">Небольшая<br> площадь
             </h3>
             <p class="main-comfort-item__number">— №3 —</p>
             <p class="main-comfort-item__text">все достопримечательности находятся очень близко</p>
           </li>
-          <li class="outline">
+          <li class="">
             <h3 class="main-comfort-item__title">Красивая<br> дорога
             </h3>
             <p class="main-comfort-item__number">— №4 —</p>
             <p class="main-comfort-item__text">Ехать в седонну из лас-вегаса совсем не скучно</p>
           </li>
-          <li class="outline">
+          <li class="">
             <h3 class="main-comfort-item__title">Мало<br> туристов
             </h3>
             <p class="main-comfort-item__number">— №5 —</p>
@@ -100,19 +100,17 @@
           </li>
         </ul>
       </section>
-      <section class="map outline">
+      <section class="map">
         <h2 class="visually-hidden">Поиск гостиниц</h2>
         <p class="map__title">Заинтересовались?</p>
         <p class="map__desc">Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
         <a href="hotel.html" class="scan">Поиск гостиницы в Седоне</a>
-        <form action="https://echo.htmlacademy.ru" class="map__form outline" method="post">
+        <form action="https://echo.htmlacademy.ru" class="map__form" method="post">
           <p class="map__item">
-            <label for="arrival__date" class="map__item-arrival__date outline">
-              Дата заезда:
-            </label>
+            <label for="arrival__date" class="map__item-residence">Дата заезда:</label>
               <input id="arrival__date" type="text" name="arrival" placeholder="24 апреля 2017"
-              class="map__item__option outline">
+              class="map__item__option">
             <button type="button" title="Поле для выбора">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
                 <path fill="#cacaca"
@@ -123,9 +121,9 @@
             </button>
           </p>
           <p class="map__item">
-            <label for="departure__date" class="map__item-departure__date outline">Дата выезда:</label>
+            <label for="departure__date" class="map__item-residence">Дата выезда:</label>
               <input id="departure__date" type="text" name="departure" placeholder="4 июля 2017"
-              class="map__item__option outline">
+              class="map__item__option">
             <button type="button" title="Поле для выбора">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
                 <path fill="#cacaca"
@@ -135,8 +133,8 @@
               </svg>
             </button>
           </p>
-          <p class="map__item outline">
-            <label for="grown" class="map__item__gross outline">
+          <p class="map__item people">
+            <label for="grown" class="map__item-resident">
               Взрослые:
             </label>
             <button type="button" title="Минус">
@@ -152,8 +150,8 @@
               </svg>
             </button>
           </p>
-          <p class="map__item outline">
-            <label for="children" class="map__item-child">
+          <p class="map__item people">
+            <label for="children" class="map__item-resident">
               Дети:
             </label>
             <button type="button" title="Минус">
@@ -173,11 +171,12 @@
         </form>
       </section>
     </main>
-    <footer class="main-footer outline">
-      <p class="main-footer-tag outline">#VISITSEDONA</p>
-      <ul class="footer-social outline">
+    <footer class="main-footer">
+      <p class="main-footer-tag">#VISITSEDONA</p>
+      <ul class="footer-social">
         <li>
           <a href="#" class="social-button">
+            <span class="visually-hidden">Твиттер</span>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="22"
               viewBox="0 0 17 15">
               <path fill="#FFF"
@@ -187,6 +186,7 @@
         </li>
         <li>
           <a href="#" class="social-button">
+              <span class="visually-hidden">Фейсбук</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
               <path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z" />
             </svg>
@@ -194,6 +194,7 @@
         </li>
         <li>
           <a href="#" class="social-button">
+              <span class="visually-hidden">Ютуб</span>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16"
               viewBox="0 0 20 16">
               <path fill="#FFF"
@@ -202,9 +203,10 @@
           </a>
         </li>
       </ul>
-      <p class="footer-copyright outline">
+      <p class="footer-copyright">
         <b class="site">Website by</b>
         <a href="https://htmlacademy.ru/intensive/htmlcss">
+          <span class="visually-hidden">HTMLAcademy</span>
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="115" height="41" viewBox="0 0 108.08 36.85">
             <title>logo-htmlacademy-small1</title>
             <path

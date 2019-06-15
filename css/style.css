@@ -347,7 +347,7 @@ a {
   width: 561px;
   margin-left: auto;
   margin-right: auto;
-  padding: 26px 55px 55px;
+  padding: 55px;
 }
 
 .map__item__option {
@@ -406,25 +406,26 @@ a {
   font-weight: bold;
   line-height: 1.86;
   color: #000000;
-  margin: 30px 0 0;
+  margin: 0 0 30px;
 }
 
-.map__item-arrival__date {
-  margin: 0 21px 0 0;
-  padding: 12px 0;
+.people {
+  margin: 0;
 }
 
-.map__item-departure__date {
-  margin: 0 17px 0 0;
-  padding: 12px 0;
+.map__item-residence {
+  width: 95px;
+  display: flex;
+  align-items: center;
+  margin: 0 32px 0 0;
 }
 
-.map__item__gross {
-
-}
-
-.map__item__button {
-  margin-left: auto;
+.map__item-resident {
+  width: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 39px 0 0;
 }
 
 .main-footer {
@@ -443,12 +444,14 @@ a {
 }
 
 .footer-social li {
-  padding: 14px 14px 6px;
-  margin: 0 6px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
   list-style: none;
+  margin: 0 6px 0 0;
 }
 
 .footer-social li:hover {
@@ -473,12 +476,14 @@ a {
 
 .main-footer-tag {
   width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
   color: #000000;
   margin: 0;
-  padding: 12px 132px;
 }
 
 .main-footer-tag b {
@@ -487,16 +492,18 @@ a {
 }
 
 .footer-copyright b {
+  display: inline-block;
+  vertical-align: 10px;
   line-height: 1.86;
   font-weight: normal;
   color: #000000;
-  margin: 0;
+  margin: 0 6px 0 0;
 }
 
 .footer-copyright {
   width: 400px;
   margin: 0;
-  padding: 10px 95px;
+  text-align: center;
 }
 
 .footer-copyright a path {
@@ -509,10 +516,6 @@ a {
 
 .footer-copyright a:active path {
   fill: #bdbbbc;
-}
-
-.footer-copyright img {
-  margin: -13px 0;
 }
 
 /* Стили для страницы hotel.html */
@@ -588,13 +591,6 @@ a {
   background-size: 22px 17px;
 }
 
-.hide-text {
-  font-size: 0;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .star-1 {
   width: 18px;
 }
@@ -668,6 +664,14 @@ a {
   background-color: #f2f2f2;
 }
 
+.map__item input:hover {
+  background-color: #ebebeb;
+}
+
+.map__item input:focus {
+  background-color: #ffffff;
+}
+
 .child {
   padding: 0 0 0 51px;
 }
@@ -703,4 +707,8 @@ a {
 
 .pointer__down:active path {
   fill: #81b3d2;
+}
+
+.children {
+  margin: 0 0 0 39px;
 }

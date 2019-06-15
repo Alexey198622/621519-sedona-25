@@ -6,12 +6,12 @@
   <title>Отели</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
   <div class="container">
-    <header class="main-header outline">
+    <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
           <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип тур-агенства Седонна">
@@ -33,7 +33,7 @@
       </nav>
     </header>
     <section class="services">
-      <form class="services-infrastructure outline">
+      <form class="services-infrastructure">
         <h2>Инфраструктура:</h2>
         <input type="checkbox" name="subscribe" id="subscribe-field" checked>
         <label for="subscribe-field">Бассейн</label>
@@ -80,7 +80,7 @@
       </section>
       <section class="hotels">
         <h2 class="visually-hidden">Каталог</h2>
-        <ul class="hotels__list outline">
+        <ul class="hotels__list">
           <li class="hotels__item">
             <div class="hotels__image">
               <img src="img/hotel-picture1.jpg" width="135" height="90" alt="Amara Resort & Spa">
@@ -96,9 +96,11 @@
                 <a href="reservation.html" class="reservation">Забронировать</a>
               </div>
             </div>
-            <div class="hotels__rate outline">
+            <div class="hotels__rate">
               <span class="hotels__rate-star star-4">
-                <div class="stars stars-4 hide-text">Четыре звезды</div>
+                <div class="stars stars-4">
+                  <p class="visually-hidden">Четыре звезды</p>
+                </div>
               </span>
               <p class="hotels__rate-text">Рейтинг: 8,5</p>
             </div>
@@ -118,9 +120,9 @@
                 <a href="reservation.html" class="reservation">Забронировать</a>
               </div>
             </div>
-            <div class="hotels__rate outline">
+            <div class="hotels__rate">
               <span class="hotels__rate-star star-3">
-                <div class="stars stars-3 hide-text">Три звезды</div>
+                  <p class="visually-hidden">Три звезды</p>
               </span>
               <p class="hotels__rate-text">Рейтинг: 8,9</p>
             </div>
@@ -140,21 +142,21 @@
                 <a href="reservation.html" class="reservation">Забронировать</a>
               </div>
             </div>
-            <div class="hotels__rate outline">
+            <div class="hotels__rate">
               <span class="hotels__rate-star star-2">
-                <div class="stars stars-2 hide-text">Две звезды</div>
-              </span>
+                <p class="visually-hidden">Две звезды</p></span>
               <p class="hotels__rate-text">Рейтинг: 9,2</p>
             </div>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="main-footer outline">
-      <p class="main-footer-tag outline">#VISITSEDONA</p>
-      <ul class="footer-social outline">
+    <footer class="main-footer">
+      <p class="main-footer-tag">#VISITSEDONA</p>
+      <ul class="footer-social">
         <li>
           <a href="#" class="social-button">
+            <span class="visually-hidden">Твиттер</span>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="22"
               viewBox="0 0 17 15">
               <path fill="#FFF"
@@ -164,6 +166,7 @@
         </li>
         <li>
           <a href="#" class="social-button">
+              <span class="visually-hidden">Фейсбук</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
               <path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z" />
             </svg>
@@ -171,6 +174,7 @@
         </li>
         <li>
           <a href="#" class="social-button">
+              <span class="visually-hidden">Ютуб</span>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16"
               viewBox="0 0 20 16">
               <path fill="#FFF"
@@ -179,9 +183,10 @@
           </a>
         </li>
       </ul>
-      <p class="footer-copyright outline">
+      <p class="footer-copyright">
         <b class="site">Website by</b>
         <a href="https://htmlacademy.ru/intensive/htmlcss">
+          <span class="visually-hidden">HTMLAcademy</span>
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="115" height="41" viewBox="0 0 108.08 36.85">
             <title>logo-htmlacademy-small1</title>
             <path
