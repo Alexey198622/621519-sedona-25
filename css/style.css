@@ -533,14 +533,77 @@ a {
 
 /* Стили для фильтра */
 
+.services-infrastructure {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.services-infrastructure__home {
+  display: grid;
+  margin: 0 115px 0 0;
+  color: #ffffff;
+}
+
+.services-infrastructure__home h2 {
+  margin: 0 0 30px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.31;
+}
+
+.services-infrastructure__home label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.services-infrastructure__home p {
+  margin: 0;
+}
+
+.checkbox-on {
+  margin: 0 14px 0 0;
+}
+
+.checkbox-on path {
+  fill: #ffffff;
+  margin: 0 14px 0 0;
+}
+
+.checkbox-on:hover path {
+  fill: #ffffff;
+}
+
+.checkbox-on:disabled path {
+  fill: #6a6a6a;
+}
+
+.checkbox-off path {
+  fill: #ffffff;
+  fill: #ffffff;
+}
+
+.checkbox-off:hover path {
+  fill: #ffffff;
+  fill: #ffffff;
+}
+
+.checkbox-off:disabled path {
+  fill: #6a6a6a;
+  fill: #6a6a6a;
+}
+
 .services {
+  display: flex;
+  padding: 31px 73px;
   background-image: url("../img/filter-background.jpg");
   background-position: 0px -365px;
 }
 
 .filter-range {
   width: 314px;
-  margin: 32px auto;
+  margin-left: auto;
   /* для демо */
   color: #ffffff;
   text-transform: uppercase;
@@ -639,12 +702,10 @@ a {
   display: block;
   margin: 0 auto;
   padding: 6px 35px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -654,10 +715,6 @@ a {
 .btn-transparent:hover {
   color: #000000;
   background: #ffffff;
-}
-
-.services-infrastructure h2 {
-  margin: 0;
 }
 
 .compare {
