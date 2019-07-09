@@ -36,10 +36,6 @@ a {
   overflow: hidden;
 }
 
-.outline {
-  outline: 1px solid red;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -74,7 +70,7 @@ a {
 
 .site-navigation li {
   width: 203px;
-  padding: 18px 20px 17px;
+  padding: 18px 0 17px;
   word-break: break-all;
 }
 
@@ -118,8 +114,8 @@ a {
 
 .feature {
   text-align: center;
-  padding-top: 61px;
-  padding-bottom: 56px;
+  padding-top: 58px;
+  padding-bottom: 53px;
   padding-left: 350px;
   padding-right: 350px;
 }
@@ -129,7 +125,7 @@ a {
   font-weight: bold;
   line-height: 1.24;
   color: #000000;
-  margin: 0 0 22px;
+  margin: 0 0 25px;
 }
 
 .feature__text {
@@ -158,17 +154,18 @@ a {
   text-align: center;
   color: #ffffff;
   background-color: #81b3d2;
-  padding: 46px 60px 64px;
+  padding: 36px 50px 63px;
 }
 
 .main-sign h3 {
   font-size: 21px;
   font-weight: bold;
   margin: 0 0 10px;
+  padding: 0 42px;
 }
 
 .main-sign__number {
-  margin: 0 0 10px;
+  margin: 0 0 22px;
 }
 
 .main-sign__text {
@@ -184,8 +181,10 @@ a {
 }
 
 .features-list li {
+  display: block;
+  text-align: center;
   width: 400px;
-  padding: 60px 74px 85px;
+  padding: 57px 51px 83px;
 }
 
 .features h3 {
@@ -194,7 +193,7 @@ a {
   line-height: 1;
   text-align: center;
   color: #000000;
-  margin: 0 0 31px;
+  margin: 0 0 25px;
 }
 
 .features p {
@@ -211,7 +210,7 @@ a {
 }
 
 .main-comfort-item__number {
-  margin: 0 0 10px;
+  margin: 0 0 22px;
 }
 
 .main-comfort-item__text {
@@ -228,7 +227,7 @@ a {
 
 .main-comfort-item li {
   width: 400px;
-  padding: 50px 60px 64px;
+  padding: 37px 65px 58px;
 }
 
 .main-comfort h3 {
@@ -236,7 +235,8 @@ a {
   font-weight: bold;
   text-align: center;
   color: #000000;
-  margin: 0 0 10px;
+  margin: 0 0 13px;
+  padding: 0 60px;
 }
 
 .main-comfort p {
@@ -248,7 +248,7 @@ a {
   line-height: 1.5;
   color: #ffffff;
   background-color: #81b3d2;
-  padding: 8px 17px;
+  padding: 5px 17px;
 }
 
 .detail:hover {
@@ -264,7 +264,7 @@ a {
   font-weight: bold;
   color: #ffffff;
   background-color: #766357;
-  padding: 8px 16px;
+  padding: 5px 17px;
 }
 
 .reservation:hover {
@@ -296,7 +296,7 @@ a {
 }
 
 .hotels__info {
-  margin: 0 528px 0 30px;
+  margin: 0 525px 0 30px;
 }
 
 .hotels__title {
@@ -320,7 +320,7 @@ a {
 
 .scan {
   display: block;
-  width: 561px;
+  width: 565px;
   text-align: center;
   font-weight: bold;
   line-height: 1.24;
@@ -329,7 +329,7 @@ a {
   background-color: #766357;
   margin-left: auto;
   margin-right: auto;
-  padding: 35px 134px;
+  padding: 30px 134px;
 }
 
 .scan:hover {
@@ -350,25 +350,42 @@ a {
 }
 
 .map__form {
-  width: 561px;
+  width: 566px;
   margin-left: auto;
   margin-right: auto;
-  padding: 55px;
+  padding: 53px;
   box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
   background-color: #ffffff;
 }
 
 .map__item__option {
-  width: 275px;
+  width: 310px;
+  margin: 0;
+  padding: 13px;
+  border: 0;
+  background-color: #f2f2f2;
+}
+
+.map__item_number {
+  width: 38px;
+  ;
+  margin: 0;
+  padding: 13px;
+  border: 0;
+  background-color: #f2f2f2;
+}
+
+.map__item__button_controller {
+  width: 38px;
 }
 
 .button {
-  font-size: 21px;
+  font-size: 25px;
   font-weight: bold;
   color: #ffffff;
   background-color: #81b3d2;
-  padding: 20px 198px;
-  margin: 55px 0 0;
+  padding: 15px 197px;
+  margin: 50px 0 4px;
   border: 0;
 }
 
@@ -390,7 +407,7 @@ a {
 }
 
 .map {
-  padding: 57px 0 0;
+  padding: 50px 0 0;
 }
 
 .map__title {
@@ -399,14 +416,14 @@ a {
   line-height: 1.2;
   color: #000000;
   text-align: center;
-  margin: 0 0 30px;
+  margin: 0 0 25px;
 }
 
 .map__desc {
-  width: 396px;
+  width: 435px;
   line-height: 1.71;
   text-align: center;
-  margin: 0 auto 52px;
+  margin: 0 auto 48px;
 }
 
 .map__item {
@@ -414,18 +431,23 @@ a {
   font-weight: bold;
   line-height: 1.86;
   color: #000000;
-  margin: 0 0 30px;
+  margin: 0 0 26px;
 }
 
 .people {
   margin: 0;
+  width: 226px;
+}
+
+.indwell {
+  width: 458px;
 }
 
 .map__item-residence {
   width: 110px;
   display: flex;
   align-items: center;
-  margin: 0 20px 0 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -434,13 +456,21 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 39px 0 0;
+  margin: 0 40px 0 0;
+}
+
+.map__item-children {
+  width: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 23px 0 32px;
 }
 
 .main-footer {
   display: flex;
   background-color: #f2f2f2;
-  padding: 36px 0;
+  padding: 35px 0;
   margin: 0;
 }
 
@@ -540,12 +570,12 @@ a {
 
 .services-infrastructure__home {
   display: grid;
-  margin: 0 115px 0 0;
+  margin: 0 120px 0 0;
   color: #ffffff;
 }
 
 .services-infrastructure__home h2 {
-  margin: 0 0 30px;
+  margin: 0 0 22px;
   font-size: 16px;
   font-weight: bold;
   line-height: 1.31;
@@ -554,11 +584,15 @@ a {
 .services-infrastructure__home label {
   display: flex;
   align-items: center;
-  margin: 0 0 5px;
+  margin: 0 0 21px;
 }
 
 .services-infrastructure__home p {
   margin: 0;
+}
+
+.checkbox {
+  display: none;
 }
 
 .checkbox-on {
@@ -595,7 +629,7 @@ a {
 
 .services {
   display: flex;
-  padding: 31px 73px;
+  padding: 27px 72px 10px;
   background-image: url("../img/filter-background.jpg");
   background-position: 0px -365px;
 }
@@ -719,7 +753,7 @@ a {
 .compare {
   display: flex;
   flex-wrap: wrap;
-  padding: 32px 73px;
+  padding: 28px 73px;
 }
 
 .compare h2 {
@@ -729,12 +763,13 @@ a {
 .compare p {
   margin: 0 40px 0 0;
   font-size: 12px;
+  padding: 5px 0;
 }
 
 .hotels__list {
   list-style: none;
   padding: 0;
-  margin-top: 0;
+  margin: 0;
 }
 
 .catalog-navigation {
@@ -742,7 +777,7 @@ a {
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 5px 0;
 }
 
 .catalog-navigation li {
@@ -766,7 +801,7 @@ a {
 .hotels__item {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px 72px;
+  padding: 30px 72px 16px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -779,7 +814,7 @@ a {
 .hotels__rate-star {
   display: inline-block;
   height: 17px;
-  margin: 0 0 52px;
+  margin: 0 0 39px;
   background-image: url("../img/star.svg");
   background-size: 22px 17px;
 }
@@ -828,7 +863,7 @@ a {
 
 .map__item button {
   margin: 0;
-  padding: 13px;
+  padding: 7px;
   border: 0;
   background-color: #f2f2f2;
 }
@@ -850,13 +885,6 @@ a {
   fill: #81b3d2;
 }
 
-.map__item input {
-  margin: 0;
-  padding: 13px;
-  border: 0;
-  background-color: #f2f2f2;
-}
-
 .map__item input:hover {
   background-color: #ebebeb;
 }
@@ -867,10 +895,6 @@ a {
 
 .child {
   padding: 0 0 0 51px;
-}
-
-.number {
-  width: 38px;
 }
 
 .pointer {

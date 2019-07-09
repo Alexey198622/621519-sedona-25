@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet"
     type="text/css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -18,17 +18,17 @@
           <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип тур-агенства Седонна">
         </a>
         <ul class="site-navigation">
-          <li>
+          <li class="">
             <a href="info.html">Информация</a>
           </li>
-          <li>
-            <a href="PhotoandVideo.html">Фото и Видео</a>
+          <li class="">
+            <a href="PhotoandVideo.html" style="padding: 0 0 0 36px">Фото и Видео</a>
           </li>
-          <li>
-            <a href="Statemap.html">Карта штата</a>
+          <li class="">
+            <a href="Statemap.html" style="padding: 0 40px 0 0;">Карта штата</a>
           </li>
-          <li>
-            <a class="housing active">Гостиницы</a>
+          <li class="">
+            <a href="hotel.html">Гостиницы</a>
           </li>
         </ul>
       </nav>
@@ -38,79 +38,87 @@
         <div class="services-infrastructure__home">
           <h2>Инфраструктура:</h2>
 
-            <label id="pool" class="checkbox-on">
-                <input type="checkbox">
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23">
+          <label id="pool" class="checkbox-on">
+            <input type="checkbox" class="checkbox">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"
+                style="margin-right: 10px;">
                 <path fill="#FFFFFF"
                   d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
                 <path fill="#FFFFFF"
                   d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
               </svg>
-              </span>
-              Бассейн
-            </label>
-            <label id="parking" class="checkbox-off">
-              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
-                <path fill="#FFFFFF"
-                  d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
-              </svg>
-              Парковка
-            </label>
-            <label id="Internet" class="checkbox-off">
-              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
-                <path fill="#FFFFFF"
-                  d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
-              </svg>
-              WI-FI
-            </label>
+            </span>
+            Бассейн
+          </label>
+          <label id="parking" class="checkbox-off">
+            <input type="checkbox" class="checkbox">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"
+              style="margin-right: 12px;">
+              <path fill="#FFFFFF"
+                d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
+            </svg>
+            Парковка
+          </label>
+          <label id="Internet" class="checkbox-off">
+            <input type="checkbox" class="checkbox">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"
+              style="margin-right: 12px;">
+              <path fill="#FFFFFF"
+                d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
+            </svg>
+            WI-FI
+          </label>
         </div>
         <div class="services-infrastructure__home">
           <h2>Тип жилья:</h2>
-            <label id="hotel" class="checkbox-on">
-              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23">
-                <path fill="#FFFFFF"
-                  d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
-                <path fill="#FFFFFF"
-                  d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
-              </svg>
+          <label id="hotel" class="checkbox-on">
+            <input type="checkbox" class="checkbox">
+            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"
+              style="margin-right: 12px;">
+              <path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
+              <path fill="#FFFFFF"
+                d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
+            </svg>
             Гостиница
-            </label>
-            <label id="motel" class="checkbox-on">
-              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23">
-                <path fill="#FFFFFF"
-                  d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
-                <path fill="#FFFFFF"
-                  d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
-              </svg>
-              Мотель
-            </label>
-            <label id="apartments" class="checkbox-on">
-              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23">
-                <path fill="#FFFFFF"
-                  d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
-                <path fill="#FFFFFF"
-                  d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
-              </svg>
-              Апартаменты
-            </label>
+          </label>
+          <label id="motel" class="checkbox-on checkbox">
+            <input type="checkbox" class="checkbox">
+            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"
+              style="margin-right: 12px;">
+              <path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
+              <path fill="#FFFFFF"
+                d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
+            </svg>
+            Мотель
+          </label>
+          <label id="apartments" class="checkbox-on">
+            <input type="checkbox" class="checkbox">
+            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"
+              style="margin-right: 12px;">
+              <path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
+              <path fill="#FFFFFF"
+                d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
+            </svg>
+            Апартаменты
+          </label>
         </div>
-      <div class="filter-range">
-        <div class="filter-range-title">Стоимость в сутки (р):</div>
-        <div class="price-controls">
-          <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-          <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-        </div>
-        <div class="range-controls">
-          <div class="scale">
-            <div class="bar"></div>
+        <div class="filter-range">
+          <div class="filter-range-title">Стоимость в сутки (р):</div>
+          <div class="price-controls">
+            <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+            <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
           </div>
-          <div class="range-toggle range-toggle-min"></div>
-          <div class="range-toggle range-toggle-max"></div>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+          <button class="btn-transparent" type="submit">Показать</button>
         </div>
-        <button class="btn-transparent" type="submit">Показать</button>
-      </div>
-    </form>
+      </form>
     </section>
     <main>
       <section class="compare">
