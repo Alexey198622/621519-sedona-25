@@ -329,7 +329,7 @@ a {
   background-color: #766357;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px 134px;
+  padding: 30px 115px;
 }
 
 .scan:hover {
@@ -420,7 +420,7 @@ a {
 }
 
 .map__desc {
-  width: 435px;
+  width: 485px;
   line-height: 1.71;
   text-align: center;
   margin: 0 auto 48px;
@@ -651,7 +651,7 @@ a {
 
 .price-controls {
   position: relative;
-  height: 36px;
+  height: 40px;
   margin-bottom: 20px;
   font-size: 0;
   border: 2px solid #ffffff;
